@@ -7,7 +7,7 @@ This project contains the initial setup of a Django application running on a loc
 - Installed Django inside the virtual environment
 - Created a Django project
 - Ran the development server successfully
-V- erified the default Django welcome page
+- Verified the default Django welcome page
 
 ### 🛠️ Tech Stack
 - Python

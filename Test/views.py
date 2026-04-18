@@ -1,17 +1,22 @@
-from django.shortcuts import render
-from django.http import HttpResponse
 from rest_framework import generics
 from .models import Lead
 from .serializers import LeadSerializer
+from django.http import HttpResponse
+
+
+def home(request):
+    return HttpResponse("LeadHub API is working 🚀")
 
 class LeadListCreate(generics.ListCreateAPIView):
     queryset = Lead.objects.all()
     serializer_class = LeadSerializer
-
-
-class LeadDetail(generics.RetrieveUpdateDestroyAPIView):
+class LeadRetrieveUpdateDestroy(generics.RetrieveUpdateDestroyAPIView):
     queryset = Lead.objects.all()
     serializer_class = LeadSerializer
 
-def home(request):
-    return HttpResponse("My Self Hitesh Successfully Created My First Django Project")
+class LeadList(generics.ListAPIView):
+    queryset = Lead.objects.all()
+    serializer_class = LeadSerializer
+class LeadCreate(generics.CreateAPIView):
+    queryset = Lead.objects.all()
+    serializer_class = LeadSerializer

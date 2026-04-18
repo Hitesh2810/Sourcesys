@@ -1,2 +1,15 @@
+__pycache__/
+*.pyc
 venv/
-env/
+.env
+db.sqlite3
+.postman/
+postman/
+collections/
+environments/
+globals/
+mocks/
+specs/
+flows/
+*.postman_collection.json
+*.postman_environment.json

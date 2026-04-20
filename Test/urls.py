@@ -11,6 +11,7 @@ urlpatterns = [
     path('', home),
 
     path('leads/', LeadListCreate.as_view()),
+    
     path('leads/<int:pk>/', LeadRetrieveUpdateDestroy.as_view()),
 
     # extra endpoints

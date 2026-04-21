@@ -1,6 +1,8 @@
 from rest_framework import generics
 from .models import Lead
-from .serializers import LeadSerializer
+from django.contrib.auth.models import User
+from rest_framework.permissions import IsAuthenticated
+from .serializers import LeadSerializer, UserSerializer
 from django.http import HttpResponse
 
 
@@ -20,3 +22,7 @@ class LeadList(generics.ListAPIView):
 class LeadCreate(generics.CreateAPIView):
     queryset = Lead.objects.all()
     serializer_class = LeadSerializer
+
+class UserCreate(generics.CreateAPIView):
+    queryset = User.objects.all()
+    serializer_class = UserSerializer

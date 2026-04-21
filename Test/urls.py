@@ -1,11 +1,5 @@
 from django.urls import path
-from .views import (
-    home,
-    LeadListCreate,
-    LeadRetrieveUpdateDestroy,
-    LeadList,
-    LeadCreate
-)
+from .views import *
 
 urlpatterns = [
     path('', home),
@@ -14,7 +8,7 @@ urlpatterns = [
     
     path('leads/<int:pk>/', LeadRetrieveUpdateDestroy.as_view()),
 
-    # extra endpoints
+    path('register/', UserCreate.as_view()),
     path('leads-list/', LeadList.as_view()),
     path('leads-create/', LeadCreate.as_view()),
 ]

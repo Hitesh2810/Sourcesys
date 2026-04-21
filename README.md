@@ -4,6 +4,16 @@ This project contains the setup of a Django application with database integratio
 
 ### 🚀 What I Did
 
+**📅 Task - 21st April**
+
+* Implemented user registration using Django’s built-in User model
+* Integrated JWT authentication using Bearer tokens
+* Generated access and refresh tokens using API endpoints
+* Secured APIs using authentication (`IsAuthenticated`)
+* Tested authenticated API requests using Postman with Bearer token
+
+---
+
 **📅 Task - 20th April**
 
 * Created a superuser and accessed the Django admin panel

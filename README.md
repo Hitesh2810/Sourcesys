@@ -4,6 +4,18 @@ This project contains the setup of a Django application with database integratio
 
 ### 🚀 What I Did
 
+---
+
+**📅 Task - 22nd April**
+
+* Explored and implemented basic HTML tags such as headings, paragraphs, links, images, lists, and tables
+* Practiced form elements including input fields and submission
+* Learned usage of attributes like class, id, and target
+* Explored semantic and additional tags like nav, header, footer, section, and article
+* Implemented media elements like audio and video
+
+---
+
 **📅 Task - 21st April**
 
 * Implemented user registration using Django’s built-in User model

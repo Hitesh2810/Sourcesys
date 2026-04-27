@@ -1,8 +1,28 @@
 ## 🌐 Django Project Setup
 
-This project contains the setup of a Django application with database integration and API functionality.
+This project contains the setup of a Django application with database integration and API functionality, along with frontend fundamentals using HTML and JavaScript.
+
+---
 
 ### 🚀 What I Did
+
+---
+
+**📅 Task - 27th April**
+
+* Developed a **Mini Calculator using JavaScript**
+* Implemented **Arithmetic and Logical operations** using separate functions  
+* Created dynamic UI to switch between **Arithmetic and Logical modes**  
+* Displayed results on the webpage using **DOM manipulation**  
+
+---
+
+**📅 Task - 25th April**
+
+* Created a **Portfolio Website using HTML & CSS**
+* Showcased my **projects and certifications**
+* Designed an **interactive and responsive UI**
+* Live Demo: https://hitesh2810.github.io/Web-Portfolio/
 
 ---
 
@@ -52,13 +72,16 @@ This project contains the setup of a Django application with database integratio
 
 ### 🛠️ Tech Stack
 
-* Python
-* Django
-* Django REST Framework
-* MySQL
+* Python  
+* Django  
+* Django REST Framework  
+* MySQL  
+* HTML  
+* CSS  
+* JavaScript  
 
 ---
 
 ### 👨‍💻 Author
 
-Hitesh Kumar S
+Hitesh Kumar S  

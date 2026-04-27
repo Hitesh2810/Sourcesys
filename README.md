@@ -13,7 +13,7 @@ This project contains the setup of a Django application with database integratio
 * Developed a **Mini Calculator using JavaScript**
 * Implemented **Arithmetic and Logical operations** using separate functions  
 * Created dynamic UI to switch between **Arithmetic and Logical modes**  
-* Displayed results on the webpage using **DOM manipulation**  
+* Displayed results on the webpage
 
 ---
 

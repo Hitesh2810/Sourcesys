@@ -8,6 +8,15 @@ This project contains the setup of a Django application with database integratio
 
 ---
 
+**📅 Task - 28th April**
+
+* Created different **JavaScript functions** for various operations  
+* Used **loops** to iterate through arrays and display values  
+* Applied **array methods** like `map()` and `filter()`  
+* Created and used **objects using functions** and explored built-in objects like Date and Math  
+
+---
+
 **📅 Task - 27th April**
 
 * Developed a **Mini Calculator using JavaScript**

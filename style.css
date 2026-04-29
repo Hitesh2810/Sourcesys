@@ -1,4 +1,3 @@
-/* Custom Properties for consistency */
 :root {
     --primary: #4f46e5;
     --primary-hover: #4338ca;
@@ -74,7 +73,6 @@ input:focus {
     background: var(--primary-hover);
 }
 
-/* Table Card Styling */
 .table-card {
     background: var(--bg-card);
     border-radius: 12px;

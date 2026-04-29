@@ -1,10 +1,24 @@
 ## 🌐 Django Project Setup
 
-This project contains the setup of a Django application with database integration and API functionality, along with frontend fundamentals using HTML and JavaScript.
+This project contains the setup of a Django application with database integration and API functionality, along with frontend development using HTML, CSS, and JavaScript.
 
 ---
 
 ### 🚀 What I Did
+
+---
+
+**📅 Task - 29th April**
+
+* Developed a **frontend interface using HTML, CSS, and JavaScript**
+* Connected frontend with Django backend APIs using **fetch()**
+* Implemented full **CRUD operations from frontend**
+  - Create Lead  
+  - View All Leads  
+  - Update Lead  
+  - Delete Lead  
+* Used **Bearer Token authentication** to access secured APIs
+* Handled API responses dynamically and displayed data on the UI
 
 ---
 
@@ -93,4 +107,4 @@ This project contains the setup of a Django application with database integratio
 
 ### 👨‍💻 Author
 
-Hitesh Kumar S  
+Hitesh Kumar S

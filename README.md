@@ -8,6 +8,24 @@ This project contains the setup of a Django application with database integratio
 
 ---
 
+**📅 Task - 30th April**
+
+* Implemented **Document Object Model (DOM) manipulation using JavaScript**
+* Created separate **HTML and JavaScript files**
+* Used DOM methods like:
+  - `getElementById()`
+  - `getElementsByClassName()`
+  - `innerHTML`
+  - `createElement()`
+* Dynamically updated content on the webpage
+* Implemented functionality to:
+  - Add data dynamically
+  - Display data using loops
+  - Delete items from the UI
+* Practiced event handling using button clicks
+
+---
+
 **📅 Task - 29th April**
 
 * Developed a **frontend interface using HTML, CSS, and JavaScript**

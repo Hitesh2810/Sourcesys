@@ -8,6 +8,16 @@ This project contains the setup of a Django application with database integratio
 
 ---
 
+**📅 Task - 4th May**
+
+* Implemented event handling in JavaScript using click, mouse, and keyboard events
+* Built a counter application with increment, decrement, and reset functionality
+* Used DOM manipulation (addEventListener(), innerText, style) for dynamic updates
+* Applied custom UI behavior with background color changes based on actions
+* Integrated keyboard shortcuts and hover effects for enhanced interactivity
+
+---
+
 **📅 Task - 30th April**
 
 * Implemented **Document Object Model (DOM) manipulation using JavaScript**

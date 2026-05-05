@@ -8,6 +8,16 @@ This project contains the setup of a Django application with database integratio
 
 ---
 
+**📅 Task - 5th May**
+
+* Implemented Rest Operator (...) to handle variable number of arguments in functions
+* Used Spread Operator (...) to copy and merge arrays and objects
+* Applied Object and Array Destructuring to extract values efficiently
+* Practiced combining these concepts to simplify code and improve readability
+* Built examples using real-world data like products, students, and courses
+
+---
+
 **📅 Task - 4th May**
 
 * Implemented event handling in JavaScript using click, mouse, and keyboard events

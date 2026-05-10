@@ -8,6 +8,15 @@ This project contains the setup of a Django application with database integratio
 
 ---
 
+**📅 Task - 8th May**
+
+* Created a React application using `create-react-app`
+* Successfully installed and configured React project dependencies using npm
+* Explored the React project structure including `src`, `public`, and `package.json`
+* Started the React development server and began working on `App.js`
+
+---
+
 **📅 Task - 5th May**
 
 * Implemented Rest Operator (...) to handle variable number of arguments in functions

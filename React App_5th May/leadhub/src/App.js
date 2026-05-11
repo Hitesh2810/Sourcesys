@@ -1,23 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import LifecycleDemo from "./LifecycleDemo";
+import "./App.css";
 
 function App() {
+  const [showComponent, setShowComponent] = useState(true);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app-container">
+      <h1 className="title">React Lifecycle Methods Demo</h1>
+
+      <p className="description">
+        This application demonstrates React component lifecycle phases
+        including Mounting, Updating, and Unmounting using Class Components.
+      </p>
+
+      <button
+        className="toggle-btn"
+        onClick={() => setShowComponent(!showComponent)}
+      >
+        {showComponent ? "Hide Component" : "Show Component"}
+      </button>
+
+      <div className="card">
+        {showComponent ? (
+          <LifecycleDemo />
+        ) : (
+          <h2>Component Removed from DOM</h2>
+        )}
+      </div>
     </div>
   );
 }

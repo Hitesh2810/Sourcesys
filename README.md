@@ -8,6 +8,24 @@ This project contains the setup of a Django application with database integratio
 
 ---
 
+**📅 Task - 12th May**
+
+* Created a Next.js application named `IMS` using `create-next-app` for building a modern frontend application
+* Configured the `IMS` project with TypeScript, Tailwind CSS, ESLint, and App Router for scalable frontend development
+* Explored the Next.js project structure including `app`, `public`, `src`, and `src/components`
+* Implemented reusable React components and started the development server for frontend development
+
+---
+
+**📅 Task - 11th May**
+
+* Practiced React lifecycle methods using class components by creating interactive applications and dynamic UI components
+* Explored component lifecycle phases such as Mounting, Updating, and Unmounting with state management and event handling
+* Implemented lifecycle methods including `componentDidMount()`, `componentDidUpdate()`, and `componentWillUnmount()`
+* Built example components to understand state updates and component behavior during different lifecycle stages
+
+---
+
 **📅 Task - 8th May**
 
 * Created a React application using `create-react-app` for `LeadHub`

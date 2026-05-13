@@ -8,6 +8,15 @@ This project contains the setup of a Django application with database integratio
 
 ---
 
+**📅 Task - 13th May**
+
+* Created a Next.js JavaScript application using App Router and reusable React components for modern frontend development
+* Developed a separate Next.js TypeScript application with scalable project structure, reusable components, and routing functionality
+* Implemented component-based architecture using `Navbar`, `HeroSection`, `FeatureCard`, and `Footer` components inside the `src/components` directory
+* Explored and configured Next.js features including `src` directory structure, App Router, TypeScript support, Tailwind CSS, and dynamic UI development
+
+---
+
 **📅 Task - 12th May**
 
 * Created a Next.js application named `IMS` using `create-next-app` for building a modern frontend application
